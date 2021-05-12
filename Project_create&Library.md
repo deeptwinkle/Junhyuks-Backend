@@ -14,6 +14,7 @@
 
 #### 라이브러리
 Maven이나 Gradle같은 빌드 툴들은 의존관계가 있는 라이브러리를  함께 다운로드한다.
+```
 * spring-boot-starter-web
 	* spring-boot-starter-tomcat: 톰캣(웹서버)
 	* spring-webmvc: 스프링 웹 MVC
@@ -23,6 +24,7 @@ Maven이나 Gradle같은 빌드 툴들은 의존관계가 있는 라이브러리
 		* spring-core
 	* spring-boot-starter-logging
 		* logback, slf4j
+```
 #### 테스트 라이브러리
 * spring-boot-starter-test
 	* junit: 테스트 프레임워크
