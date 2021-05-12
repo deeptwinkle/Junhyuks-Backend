@@ -1,6 +1,6 @@
 ##### Maven project - 과거에 많이 씀
 ##### Gradle project - 요즘 추세는 다 Gradle로 넘어옴, 버전설정하고 라이브러리 땡겨오는 것
-
+```
 * Spring Boot
   * 2.3.1
 
@@ -11,7 +11,7 @@
 * Dependencies
   * Spring Web
   * Thymeleaf - HTML을 만들어주는 템플릿 엔진, 회사마다 쓰는게 다름
-
+```
 #### 라이브러리
 Maven이나 Gradle같은 빌드 툴들은 의존관계가 있는 라이브러리를  함께 다운로드한다.
 ```
@@ -26,8 +26,10 @@ Maven이나 Gradle같은 빌드 툴들은 의존관계가 있는 라이브러리
 		* logback, slf4j
 ```
 #### 테스트 라이브러리
+```
 * spring-boot-starter-test
 	* junit: 테스트 프레임워크
 	* mockito: 목 라이브러리
 	* assertj: 테스트 코드를 좀 더 편하게 작성하게 도와주는 라이브러리
 	* spring-test: 스프링 통합 테스트 지원
+```
